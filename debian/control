@@ -1,0 +1,43 @@
+Source: openni-sensor-pointclouds
+Priority: optional
+Maintainer: Jochen Sprickerhof <jochen@sprickerhof.de>
+Uploaders: Hans-Christoph Steiner <hans@eds.org>
+Build-Depends: debhelper (>= 8.0.0),
+               python,
+               libjpeg-dev,
+               libopenni-dev (>= 1.1.0.41)
+Standards-Version: 3.9.4
+Section: libs
+Homepage: http://www.openni.org
+Vcs-Git: git://git.debian.org/pkg-multimedia/openni-sensor-pointclouds.git
+Vcs-Browser: http://git.debian.org/?p=pkg-multimedia/openni-sensor-pointclouds.git;a=summary
+
+Package: libopenni-sensor-pointclouds-dev
+Section: libdevel
+Architecture: any
+Depends: ${shlibs:Depends},
+         ${misc:Depends},
+         libopenni-sensor-pointclouds0 (= ${binary:Version})
+Description:  Microsoft Kinect sensor modules for the OpenNI framework
+ OpenNI is a framework for getting data to support 'Natural Interaction',
+ i.e. skeleton tracking, gesture tracking, and similar ways of getting data
+ from humans. This package provides modules for OpenNI that get the data from
+ the Kinect camera for processing with the OpenNI Middleware, like PrimeSense
+ NITE.
+ .
+ This package provides the headers for building against these sensor modules.
+
+Package: libopenni-sensor-pointclouds0
+Architecture: any
+Depends: ${shlibs:Depends},
+         ${misc:Depends},
+         openni-utils
+Description: Microsoft Kinect sensor modules for the OpenNI framework
+ OpenNI is a framework for getting data to support 'Natural Interaction',
+ i.e. skeleton tracking, gesture tracking, and similar ways of getting data
+ from humans. This package provides modules for OpenNI that get the data from
+ the Kinect camera for processing with the OpenNI Middleware, like PrimeSense
+ NITE.
+ .
+ This package includes all of the sensor modules needed to work with the
+ Kinect camera in OpenNI.
