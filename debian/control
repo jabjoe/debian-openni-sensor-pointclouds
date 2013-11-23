@@ -10,8 +10,8 @@ Build-Depends: debhelper (>= 8.0.0),
 Standards-Version: 3.9.4
 Section: libs
 Homepage: http://www.openni.org
-Vcs-Git: git://git.debian.org/pkg-multimedia/openni-sensor-pointclouds.git
-Vcs-Browser: http://git.debian.org/?p=pkg-multimedia/openni-sensor-pointclouds.git;a=summary
+Vcs-Git: https://alioth.debian.org/anonscm/git/pkg-multimedia/openni-sensor-pointclouds.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-multimedia/openni-sensor-pointclouds.git
 
 Package: libopenni-sensor-pointclouds-dev
 Section: libdevel
