@@ -1,5 +1,5 @@
 openni-sensor-pointclouds (5.1.0.41.1-1) unstable; urgency=low
 
-  * Initial test version.
+  * Initial test version. (Closes: #730292)
 
  -- Jochen Sprickerhof <debian@jochen.sprickerhof.de>  Sat, 09 Nov 2013 18:24:17 +0100
