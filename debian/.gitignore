@@ -1,0 +1,10 @@
+files
+libopenni-sensor-pointclouds-dev.debhelper.log
+libopenni-sensor-pointclouds-dev.substvars
+libopenni-sensor-pointclouds-dev/
+libopenni-sensor-pointclouds0.debhelper.log
+libopenni-sensor-pointclouds0.postinst.debhelper
+libopenni-sensor-pointclouds0.postrm.debhelper
+libopenni-sensor-pointclouds0.preinst.debhelper
+libopenni-sensor-pointclouds0.substvars
+libopenni-sensor-pointclouds0/
