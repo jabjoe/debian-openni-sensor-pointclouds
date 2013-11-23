@@ -1,7 +1,8 @@
 Source: openni-sensor-pointclouds
 Priority: optional
 Maintainer: Jochen Sprickerhof <jochen@sprickerhof.de>
-Uploaders: Hans-Christoph Steiner <hans@eds.org>
+Uploaders: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>,
+           Hans-Christoph Steiner <hans@eds.org>
 Build-Depends: debhelper (>= 8.0.0),
                python,
                libjpeg-dev,
