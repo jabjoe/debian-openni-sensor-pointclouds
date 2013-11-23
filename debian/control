@@ -19,7 +19,7 @@ Architecture: any
 Depends: ${shlibs:Depends},
          ${misc:Depends},
          libopenni-sensor-pointclouds0 (= ${binary:Version})
-Description:  Microsoft Kinect sensor modules for the OpenNI framework
+Description: headers for Kinect sensor modules for the OpenNI framework
  OpenNI is a framework for getting data to support 'Natural Interaction',
  i.e. skeleton tracking, gesture tracking, and similar ways of getting data
  from humans. This package provides modules for OpenNI that get the data from
