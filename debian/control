@@ -26,6 +26,9 @@ Description: headers for Kinect sensor modules for the OpenNI framework
  the Kinect camera for processing with the OpenNI Middleware, like PrimeSense
  NITE.
  .
+ This is a for of the original OpenNI sensor driver providing support for
+ Kinect as well as the original PrimeSense devices.
+ .
  This package provides the headers for building against these sensor modules.
 
 Package: libopenni-sensor-pointclouds0
@@ -39,6 +42,9 @@ Description: Microsoft Kinect sensor modules for the OpenNI framework
  from humans. This package provides modules for OpenNI that get the data from
  the Kinect camera for processing with the OpenNI Middleware, like PrimeSense
  NITE.
+ .
+ This is a for of the original OpenNI sensor driver providing support for
+ Kinect as well as the original PrimeSense devices.
  .
  This package includes all of the sensor modules needed to work with the
  Kinect camera in OpenNI.
