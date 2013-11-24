@@ -27,7 +27,7 @@ Description: headers for Kinect sensor modules for the OpenNI framework
  the Kinect camera for processing with the OpenNI Middleware, like PrimeSense
  NITE.
  .
- This is a for of the original OpenNI sensor driver providing support for
+ This is a fork of the original OpenNI sensor driver providing support for
  Kinect as well as the original PrimeSense devices.
  .
  This package provides the headers for building against these sensor modules.
@@ -45,7 +45,7 @@ Description: Microsoft Kinect sensor modules for the OpenNI framework
  the Kinect camera for processing with the OpenNI Middleware, like PrimeSense
  NITE.
  .
- This is a for of the original OpenNI sensor driver providing support for
+ This is a fork of the original OpenNI sensor driver providing support for
  Kinect as well as the original PrimeSense devices.
  .
  This package includes all of the sensor modules needed to work with the
