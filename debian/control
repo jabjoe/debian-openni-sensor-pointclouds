@@ -19,7 +19,9 @@ Architecture: any
 Depends: ${shlibs:Depends},
          ${misc:Depends},
          libopenni-sensor-pointclouds0 (= ${binary:Version})
-Conflicts: openni-sensor-primesense-dev, openni-sensor-avin2-dev
+Provides: libopenni-sensor-dev
+Conflicts: libopenni-sensor-dev
+Replaces: libopenni-sensor-dev
 Description: headers for Kinect sensor modules for the OpenNI framework
  OpenNI is a framework for getting data to support 'Natural Interaction',
  i.e. skeleton tracking, gesture tracking, and similar ways of getting data
@@ -37,7 +39,9 @@ Architecture: any
 Depends: ${shlibs:Depends},
          ${misc:Depends},
          openni-utils
-Conflicts: openni-sensor-primesense0
+Provides: libopenni-sensor
+Conflicts: libopenni-sensor
+Replaces: libopenni-sensor
 Description: Microsoft Kinect sensor modules for the OpenNI framework
  OpenNI is a framework for getting data to support 'Natural Interaction',
  i.e. skeleton tracking, gesture tracking, and similar ways of getting data
