@@ -1,3 +1,10 @@
+openni-sensor-pointclouds (5.1.0.41.3-1) unstable; urgency=low
+
+  [ Jochen Sprickerhof ]
+  * Imported Upstream version 5.1.0.41.3
+
+ -- Hans-Christoph Steiner <hans@eds.org>  Mon, 05 May 2014 09:44:53 -0400
+
 openni-sensor-pointclouds (5.1.0.41.1-1) unstable; urgency=low
 
   * Initial test version. (Closes: #730292)
