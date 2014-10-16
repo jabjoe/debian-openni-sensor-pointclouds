@@ -1,0 +1,25 @@
+From 23c7154f41cc677511112c4241da82669b870044 Mon Sep 17 00:00:00 2001
+From: Joe Burmeister <joe@SuaveAirApps.co.uk>
+Date: Thu, 16 Oct 2014 14:42:59 +0100
+Subject: [PATCH] On a armhf device, like a PC, you want UsbInterface=1.
+
+---
+ Data/GlobalDefaults.ini | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/Data/GlobalDefaults.ini b/Data/GlobalDefaults.ini
+index 750dce8..c0adc92 100644
+--- a/Data/GlobalDefaults.ini
++++ b/Data/GlobalDefaults.ini
+@@ -57,7 +57,7 @@ LogMasks=ALL
+ ;APCEnabled=1
+ 
+ ; USB interface to be used. 0 - FW Default, 1 - ISO endpoints, 2 - BULK endpoints. Default: Arm - 2, other platforms - 1
+-;UsbInterface=2
++UsbInterface=1
+ 
+ [Depth]
+ ; Output format. 0 - Shift values, 1 - 12-bit depth values (default)
+-- 
+1.9.1
+
