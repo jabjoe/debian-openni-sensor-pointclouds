@@ -1,0 +1,35 @@
+From: Joe Burmeister <joe@suaveairapps.co.uk>
+Date: Wed, 15 Oct 2014 12:00:05 +0000
+Subject: Add ARMhf support.
+
+---
+ Platform/Linux/Build/Common/Platform.Arm | 2 +-
+ Platform/Linux/CreateRedist/RedistMaker  | 2 ++
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+
+diff --git a/Platform/Linux/Build/Common/Platform.Arm b/Platform/Linux/Build/Common/Platform.Arm
+index 32cc34d..ecc5540 100644
+--- a/Platform/Linux/Build/Common/Platform.Arm
++++ b/Platform/Linux/Build/Common/Platform.Arm
+@@ -1,7 +1,7 @@
+ ifeq "$(CFG)" "Release"
+ 
+     # Hardware specifying flags
+-    CFLAGS += -march=armv7-a -mtune=cortex-a8 -mfpu=neon -mfloat-abi=softfp #-mcpu=cortex-a8
++    CFLAGS += -march=armv7-a -mtune=cortex-a8 -mfpu=neon #-mcpu=cortex-a8
+ 
+     # Optimization level, minus currently buggy optimizing methods (which break bit-exact)
+     CFLAGS += -O3 -fno-tree-pre -fno-strict-aliasing
+diff --git a/Platform/Linux/CreateRedist/RedistMaker b/Platform/Linux/CreateRedist/RedistMaker
+index 14fc068..d0530db 100755
+--- a/Platform/Linux/CreateRedist/RedistMaker
++++ b/Platform/Linux/CreateRedist/RedistMaker
+@@ -31,6 +31,8 @@ else
+ 		PLATFORM="Arm" ;;
+ 	ppc)
+ 		PLATFORM="Powerpc" ;;
++	arm*)
++		PLATFORM="Arm" ;;
+ 	*)
+ 		echo "Unknown machine type: $MACHINE_TYPE"
+ 		exit 1
